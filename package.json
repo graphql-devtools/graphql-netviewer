@@ -1,19 +1,30 @@
 {
-  "name": "graphql-netviewer",
-  "version": "0.0.1",
-  "description": "Chrome devtool for inspecting GraphQl queries and mutations.",
-  "main": "index.js",
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.6",
+    "@types/node": "11.9.5",
+    "@types/react": "16.8.4",
+    "@types/react-dom": "16.8.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "typescript": "3.3.3333"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/graphql-devtools/graphql-netviewer.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "2",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/graphql-devtools/graphql-netviewer/issues"
-  },
-  "homepage": "https://github.com/graphql-devtools/graphql-netviewer#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
